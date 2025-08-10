@@ -2,6 +2,7 @@
   "name": "clip-diff",
   "displayName": "clip-diff",
   "publisher": "mag911",
+  "license": "MIT",
   "author": {
     "name": "mag911"
   },
