@@ -1,15 +1,15 @@
 {
-  "name": "clipboard-diff-patch",
-  "displayName": "clipboard-diff-patch",
-  "publisher": "esc5221",
+  "name": "clip-diff",
+  "displayName": "clip-diff",
+  "publisher": "mag911",
   "author": {
-    "name": "esc5221"
+    "name": "mag911"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/esc5221/vscode-clipboard-diff-patch.git"
+    "url": "https://github.com/mag911/vscode-clip-diff.git"
   },
-  "description": "VSCode Extension to Apply Diff Patch from Clipboard",
+  "description": "VSCode extension to apply diff patch directly from the clipboard",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.86.0"
@@ -18,14 +18,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:clipboard-diff-patch.applyDiffPatchFromClipboard"
+    "onCommand:clip-diff.applyDiffPatchFromClipboard"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "clipboard-diff-patch.applyDiffPatchFromClipboard",
-        "title": "Apply Diff Patch from Clipboard"
+        "command": "clip-diff.applyDiffPatchFromClipboard",
+        "title": "Apply diff patch directly from the clipboard"
       }
     ]
   },
